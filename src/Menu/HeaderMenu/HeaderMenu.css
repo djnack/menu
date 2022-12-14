@@ -1,0 +1,12 @@
+.shadow-header {
+  box-shadow: 0px 5px 10px #00000024;
+}
+.header-height {
+  height: 30px !important;
+}
+.header-icon-madding {
+  padding-top: 3px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+}

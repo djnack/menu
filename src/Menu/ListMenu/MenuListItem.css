@@ -1,0 +1,114 @@
+.price-list-relative {
+  position: relative;
+  bottom: 19px;
+  padding-bottom: 1px !important;
+  padding-top: 2px;
+  background: rgba(212, 72, 55, 0.9);
+  padding: 1px 7px;
+  padding-bottom: 1px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 0.7rem 0 0.7rem 0;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+.price-list2 {
+  position: relative;
+  bottom: 0;
+  right: 0px;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(212, 72, 55, 0.9);
+  margin: 0;
+  margin-left: 0px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+}
+.price-list-relative sup {
+  position: relative;
+  top: -2px !important;
+}
+.price-list2 sup {
+  position: relative;
+  top: -2px !important;
+}
+.price-list2-small {
+  position: relative;
+  top: 5px;
+}
+.price-list3 {
+  position: relative;
+  padding: 0 !important;
+  margin: 0;
+  background: gray;
+  padding-left: 5px !important;
+  padding-bottom: 3px !important;
+  text-decoration-line: line-through;
+  padding-right: 5px !important;
+  color: white;
+  font-size: 12px;
+}
+.price-div-list {
+  position: relative;
+  bottom: 19px;
+  padding: 0px !important;
+  display: flex;
+  border-radius: 0.7rem 0 0.7rem 0;
+  overflow: hidden;
+  height: 27px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.price-list-bg-d {
+  background: rgba(121, 121, 121, 0.9) !important;
+}
+.bg-disable {
+  background-color: #dfdfdf !important;
+}
+.color-disable {
+  color: #dfdfdf !important;
+}
+sup {
+  top: -3px !important;
+  font-size: 10px !important;
+  margin: 0 3px !important;
+}
+.link-add {
+  font-size: 16px;
+  background: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: -1px 1px 4px 1px rgba(162, 162, 162, 0.33);
+  -moz-box-shadow: -1px 1px 4px 1px rgba(162, 162, 162, 0.33);
+  box-shadow: -1px 1px 4px 1px rgba(162, 162, 162, 0.33);
+  margin-left: 3px;
+  font-weight: 600;
+}
+.link-div-add {
+  position: absolute;
+  inset-inline-end: -5px;
+  top: -5px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.link-plus {
+  color: #da2626;
+}
+.link-minus {
+  color: #680202;
+}
+.star {
+  position: absolute;
+  top: 4px;
+  inset-inline-start: 3px;
+  width: "35px";
+}
+

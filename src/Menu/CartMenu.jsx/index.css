@@ -1,0 +1,40 @@
+.cart-bottom-btn {
+  margin-bottom: 39px;
+  z-index: 5;
+  box-shadow: none;
+  height: 50px;
+  background-color: #4caf50;
+}
+.cart-bottom-btn-p {
+  top: 5px;
+  position: relative;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+}
+.cart-bottom-btn-t {
+  top: 9px;
+  position: relative;
+  color: white;
+}
+
+.cart-bottom-btn-plus {
+  bottom: 82px;
+  position: absolute;
+  inset-inline-end: 16px;
+}
+.offer-bottom {
+  text-decoration-line: line-through;
+  background: #8080808c;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  padding: 15px;
+  font-size: 14px;
+}
+.bottom-price{
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 6px;
+  z-index: 49;
+
+}

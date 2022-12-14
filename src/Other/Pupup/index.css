@@ -1,0 +1,30 @@
+.popup-bg {
+  background: #0000003b;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1100;
+}
+.popup-body {
+  position: fixed;
+  top: 50%;
+  right: 5vw !important;
+  left: 5vw !important;
+  width: 90vw !important;
+  z-index: 1101;
+  background: rgb(243, 243, 243);
+  margin: 0 !important;
+  transform: translateY(-50%);
+  padding: 1rem !important;
+  border-radius: 0.75rem;
+  border: 1px rgb(202, 202, 202) solid;
+}
+.icon-close {
+  position: relative;
+  float: left;
+  padding: 6px;
+}

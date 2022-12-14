@@ -1,0 +1,72 @@
+.div-home {
+  background-repeat: round;
+}
+.div-home-one {
+  height: 50vh !important;
+  background-color: #000000b5;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.div-home-two {
+  height: 50vh !important;
+  position: relative;
+}
+.home-img-icon {
+  max-width: 100%;
+  scale: 0.8;
+}
+.home-btn-login1 {
+  width: 45%;
+  margin-inline-start: 5%;
+  border-start-start-radius: 5px;
+  border-end-start-radius: 5px;
+  background-color: rgba(212, 72, 55, 0.9);
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding-bottom: 0.6rem;
+  padding-top: 0.3rem;
+}
+.home-btn-login2 {
+  width: 45%;
+  margin-inline-end: 5%;
+  border-start-end-radius: 5px;
+  border-end-end-radius: 5px;
+  background-color: rgba(222, 72, 55, 0.9);
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding-bottom: 0.6rem;
+  padding-top: 0.3rem;
+}
+.btn-home-div-login {
+  position: absolute;
+  bottom: 8px;
+  width: 100vw;
+}
+.btn-home {
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  color: wheat;
+  border: 0;
+  border-radius: 1rem;
+}
+.btn-home-icon-list {
+  position: relative;
+  display: block;
+  font-size: 55px;
+  margin: 0.5rem;
+}
+.btn-animation {
+  animation: crescendo 0.4s alternate infinite ease-in;
+}
+@keyframes crescendo {
+  0% {
+    transform: scale(0.93);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

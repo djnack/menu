@@ -1,0 +1,51 @@
+.add-order {
+  position: relative;
+  inset-inline-end: 4px;
+  top: 11px;
+  min-width: 99px;
+  margin-inline-start: auto;
+}
+.price-order {
+  position: absolute;
+  top: 34px;
+  inset-inline-end: 0;
+}
+.price-order-symbole {
+  font-size: 9px;
+  margin-left: 2px;
+  position: relative;
+  bottom: 2px;
+  color: gray;
+}
+.total-price {
+  position: fixed;
+  bottom: 45px;
+  height: 57px;
+  background: #1fc0c8;
+  right: 0;
+  left: 0;
+  padding-top: 14px;
+}
+.total-price p {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+.total-price sup {
+  color: #e1e1e1;
+}
+.total-price i {
+  padding-inline-end: 10px;
+  position: relative;
+  top: 3px;
+  font-size: 21px;
+  color: #378080;
+}
+.empty-order{
+  color: gray;
+font-size: 13px;
+border-radius: .45rem;
+border: 1px #8080805c solid;
+margin-top: 0.5rem !important;
+padding: .25rem !important;
+}

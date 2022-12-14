@@ -1,0 +1,26 @@
+.count-order {
+  position: relative;
+  background: rgba(212, 72, 55, 0.9);
+  border-radius: 50%;
+  inset-inline-end: -9px;
+  padding: 5px 4px;
+  color: white;
+  font-weight: 800 !important;
+  font-size: 12px;
+  text-align: center;
+  width: 24px;
+  display: inherit;
+  margin: -12px;
+}
+.shadow-footer {
+  box-shadow: 0px -5px 10px #00000024;
+}
+.bottom-fixed {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+  height: 45px;
+  padding: 0.5rem 0px !important;
+}

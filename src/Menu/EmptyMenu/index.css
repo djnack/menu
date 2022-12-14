@@ -1,0 +1,13 @@
+.empty-list-div {
+  text-align: center;
+  top: 28vh;
+  position: relative;
+}
+.empty-list-icon {
+  font-size: 130px;
+  color: #80808080;
+}
+.empty-list-text {
+  margin-top: 1rem;
+  font-size: 20px;
+}
